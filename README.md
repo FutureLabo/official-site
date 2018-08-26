@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="最新技術と自然との調和を目指す">
+<meta name="viewport" content="width=device-width">
+<title>FutureLabo</title>
+<link rel="stylesheet" media="all" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+
+<nav id="mainnav">
+	<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+	<div class="panel">
+		<ul>
+			<li><a href="#header">TOP</a></li>
+			<li><a href="#sec01">VISION</a></li>
+			<li><a href="#sec02">MESSAGE</a></li>
+			<li><a href="#sec03">ADMIN</a></li>
+			<li><a href="#sec04">STORY</a></li>
+			<li><a href="https://discord.gg/MU8N8Fj">JOIN</a></li>
+			<li><a href="index.html">LOGIN</a></li>
+		</ul>
+	</div>
+</nav>
+
+<header id="header">
+	<img src="images/FutureLabo.png" alt="">
+	<div id="slogan">
+		<h1>Future Labo</h1>
+		<h2>ひとりをみんなに</h2>
+	</div>
+</header>
+
+<!-- VISION -->
+<section id="sec01">
+	<header>
+		<h2>VISION</h2>
+	</header>
+	<div class="vision">
+ずっと一人で作るのもつまらない。これからはみんなで作ってゆく	。皆で共有し、皆で作り、皆で成功する。この世界に足りないものは「つながる」こと。それをやって行くのがFutureLabo。</div>
+</section>
+<!-- // VISION -->
+
+<!-- MESSAGE -->
+<section id="sec02">
+	<div class="wrap">
+		<p class="bg"><img src="images/programing.jpg" alt=""></p>
+		<div class="txt">
+			<div class="vMid">
+				<h2>HISTORY</h2>
+				<p>FutureLaboを設立したきっかけは3DCADとプログラミングを融合させることは可能なのか？という疑問が引き金となって設立しました。個人個人のスキルを最大限生かす上で欠かせないこと。それは、コミュニケーションです。苦手な人もいれば、得意な人もいて人それぞれです。しかし、今よりももっと良い物作りをするには、大事なことだと思います。このサーバーでは、その苦手なコミュニケーションを克服し、それぞれの才能が開花することを願って設立しました。</p>
+			</div>
+		</div>
+	</div>
+	<div id="sec02_02" class="wrap">
+		<p class="bg"><img src="images/connect.jpg" alt=""></p>
+		<div class="txt">
+			<div class="vMid">
+				<h2>CONNECT</h2>
+				<p>FutureLaboでは色々な組織と連携し、学生エンジニアにより良い環境を提供します。
+				現在は<a href="https://teityan.t-server.tk/">Teraterayuki's Server</a>と連携し、学生に無償でサーバーを貸していただいております</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- // MESSAGE -->
+
+<!-- SERVICE -->
+<section id="sec03">
+	<div class="inner">
+	<br>
+	<div align="center"><p><font size="10">ADMIN</font></p></div>
+		<ul class="col3">
+			<li>
+				<h2>tomoyan_jpn</h2>
+				<img src="images/tomoyan_jpn.png" width="288" height="288" alt="">
+				<p>自分自身の想像を超えた創造をする事を願っています。</p>
+			</li>
+			<li>
+				<h2>0505Keitan</h2>
+				<img src="images/0505Keitan.png" width="288" height="288" alt="">
+				<p>年代の壁を超えて交流し、つながりを増やすことを目指しています。</p>
+			</li>
+			<li>
+				<h2>stmkza</h2>
+				<img src="images/stm.png" width="288" height="288" alt="">
+				<p>メッセージ</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // SERVICE -->
+
+<!-- STORY --> 
+<section id="sec04">
+	<div class="inner">
+		<ul class="col2">
+			<li>
+				<h2>STORY</h2>
+				<p>メッセージ</p>
+			</li>
+			<li>
+				<h2>SUCCESS</h2>
+				<p>メッセージ</p>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- // STORY -->
+
+<footer id="footer">
+        Copyright © 2018 ~ FutureLabo All Rights Reserved.
+    </footer>
+
+</body>
+</html>
